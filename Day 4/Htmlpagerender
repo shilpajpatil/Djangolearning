@@ -1,0 +1,8 @@
+3.	How to render a HTML template(file):
+Step 1 : Create a template folder in your project where the manage .py file available.  Also create an .html file 
+Step 2. Go to settings.py file Inside template mention your template 
+Step 3 :  Go to views.py file  where their we need to import the render 
+3.1 -> From  django.shortcuts import render 
+3.2 -> create a function and the function will return the request and the .html file
+3.3 ->  Go to url.py and add your url 
+3.4 -> Run the program 
