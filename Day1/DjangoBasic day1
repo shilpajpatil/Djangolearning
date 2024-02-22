@@ -1,0 +1,24 @@
+Day 1 :
+  Steps to create basic django project:
+
+1.	Install python
+2.	Install Django
+        ---------------------------------
+        |	Command : pip install django  |
+        ---------------------------------
+
+# To create a New project using django :
+	    ---------------------------------------------------
+      | Command : django-admin startproject projectName |
+      ---------------------------------------------------
+
+#To run a  created project you can use following 
+    command :First of all go to particular path where you created your django project and the use following :
+    -----------------------------------------
+    |  command: python manage.py runserver |
+    -----------------------------------------
+
+#To change a port you have to use command are as follow:
+  ---------------------------------------------------
+  | Command : python manage.py runserver portnumber |
+  ===================================================
