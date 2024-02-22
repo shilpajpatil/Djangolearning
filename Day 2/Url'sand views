@@ -1,0 +1,20 @@
+Day 2:
+
+I have learn how to create a urls and how to view it on browser 
+
+Create a new views.py file inside our project.
+
+Then import  it into urls.py file
+	
+Add a path in urlspattern
+    ------------------------------------------------------------
+    | #Syntax path("urlname you want", filename.function name) |
+  	------------------------------------------------------------
+Run a project  
+   --------------------------------------
+   | Command : python manage.py runserver|
+   --------------------------------------
+      
+
+  
+  
