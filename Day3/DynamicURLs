@@ -1,1 +1,10 @@
 
+Day 3 :
+# How to create a dynamic routes or dynamic URLs: 
+
+-You can follow  the same steps are as url’s and views, 
+  but  in path you have to pass a variable to that function which is created in views.py file.
+- you can  pass int, char , slug datatype 
+What is mean by slug : it also a datatype which can also accept int , char and a_dsa , this type. 
+  If you don’t what to put a data type name then put it empty it can accept anything.
+
