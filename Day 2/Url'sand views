@@ -1,12 +1,12 @@
 Day 2:
 
-I have learn how to create a urls and how to view it on browser 
+I have learned how to create a URLs and how to view them on browser 
 
-Create a new views.py file inside our project.
+Please create a new views.py file inside our project.
 
-Then import  it into urls.py file
+Then import  it into the urls.py file
 	
-Add a path in urlspattern
+Add a path in URL pattern
     ------------------------------------------------------------
     | #Syntax path("urlname you want", filename.function name) |
   	------------------------------------------------------------
@@ -14,7 +14,9 @@ Run a project
    --------------------------------------
    | Command : python manage.py runserver|
    --------------------------------------
-      
+
+After you run your project you have to check the output 
+	use a slash after the port number and the name you have given in the path.
 
   
   
