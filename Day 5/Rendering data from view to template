@@ -1,0 +1,14 @@
+Day 5
+
+How to render data from views.py to template :
+
+Step 4.1 – first you have to create a dictionary inside your function (inside views.py) that you want to display on web
+
+Step 4.2 – Inside return you have to mention third parameter as your dictionary name 
+	 i.e return render(request , html file name , dict name )
+
+step 4.3 – Inside url’s .py you have to mention path as it’s syantax
+
+step 4.4 –mention that template inside setting.py template list
+		if it is already mention then there is no need to do that. 
+step 4.5 -  inside your template.html you have to mention key as {{Key}}
