@@ -1,0 +1,14 @@
+Day 6 :
+
+For loop : 
+      1. you will create a list or dictionary inside views.py
+            Refer views.py 
+                   syntax:       {% for i in list1%}  
+                                  .
+                                  .
+                                  {% endfor %}
+      2. Any you will access that inside .html file.
+
+
+if else statements: 
+        
