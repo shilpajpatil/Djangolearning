@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{newdata}}</title>
+</head>
+<body>
+
+    {% for i in list1 %}
+    <div>{{forloop.counter}} {{i}}</div>
+    {% endfor %}    
+
+    <br>
+    <table border="1" cellpadding = "10">
+        <tr>
+            
+            <th>Name</th>
+            <th>phone number</th>
+        </tr>
+
+        {% for j in dict1 %}
+        <tr>
+            <td>{{j.name}}</td>
+            <td>{{j.phone}}</td>
+        </tr>
+        {% endfor %}
+    </table>
+
+</body>
+</html>
