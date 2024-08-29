@@ -1,1 +1,45 @@
 
+**************************Django Shell***************************************
+
+what is the use of Django Shell?
+  Django shell allows you to write a python statement from command line as though these are being exicuted within django web framework.
+
+Main functionality : Easy access to the object relational mapper(ORM). which allows user to directly interact with database.
+
+step 1. open Terminal 
+
+step 2 : Command to access django shell
+       --------------------------------
+        | python manage.py shell   |
+        -----------------------------
+step 3: Load your table using command
+      -----------------------------
+      | from home.models import * |
+      -----------------------------
+   Explanation :  home is an app name models is an py file. you are imorting all the things from that file
+  you table structure inside this file 
+
+step 4 : If you have to add data inside student table then following command used on shell
+
+          ---------------------------------------------------------------------------------------------
+          | stud = Student (name= "abhi", age = 24 , email = "abhi@gmail.com", address = "solapur" )  |
+         ----------------------------------------------------------------------------------------------      
+      stud is an object 
+
+step 5. print table data 
+
+              -------
+command       |stud |
+              --------
+
+step 6:   if you want to print all table data and seprate thing from table use following command s
+
+      command ---------------------
+              | Stud.object.all()|
+              --------------------
+      one thing from table 
+      command ----------------------------
+              | stud.object.all()[0].name|
+              ----------------------------
+
+
