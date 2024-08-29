@@ -1,0 +1,31 @@
+
+Models and Migration 
+
+project structure - Core project name  -> home & account are two apps 
+
+Step 1: I am creating a database inside the home app 
+        go to mpodels.py file 
+        in models.py file and write a table structure or schema for creating a table with the name student 
+
+Step 2: Open a command prompt and hit the following command 
+
+          ----------------------------------
+          | python maange.py makemigration|
+          ---------------------------------
+
+step 3:  After this command one file is created inside the migration folder in the home app 
+          The file shows what operation you want to perform.
+          After that, if you have performed any operation on that data and apply step 2 then it will create one more file with what operation you have performed on that data.
+
+step 4: migrate the database with sqligth3 using the following command
+
+          -------------------------------
+          | python manage.py migrate     |
+          --------------------------------
+
+Step 5: open a database using the sqligth3 database viewer
+
+
+
+
+  
