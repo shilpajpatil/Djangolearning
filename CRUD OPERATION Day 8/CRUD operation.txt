@@ -1,2 +1,74 @@
 CREATE < READ  < UPDATE < DELETE  operation on database
 
+For table structure, you can find the models.py file in home app
+
+Do the migration steps 
+
+open the shell 
+
+In that shell import the model
+
+************************************************ CREATE ****************************************************
+Add data inside the table using the following command 
+      ----------------------------------------------
+      | >>>  obj = Car(car_name= "RR", speed = 120) |
+      | >>>  obj = Car(car_name= "Nexon" speed= 90) |
+      ------------------------------------------------
+then save the data after each command 
+      ------------------
+      | >>> obj.save() |
+      ------------------
+*********************************************** READ **********************************************
+To Print all that data 
+      --------------------------
+      | obj= Car.objects.all() |
+      --------------------------
+print data 
+      ---------
+      |>>> obj |
+      ----------
+
+To access table data using getid() function 
+      -----------------------------------
+      | >>> obj = car.objects.getid(id=1)|
+      ------------------------------------
+
+******************************************** UPDATE **********************************************
+
+To update the Table use the following commands 
+
+      ------------------------------------
+      | >>> obj1 = car_name = "Creta"    |
+      | >>> obj1 = car.speed = 110       |
+      ------------------------------------
+      ----------------------
+      | >>> obj1. save()   |
+       | >>> obj1  |         
+      ----------------------
+                                           OR 
+you can also update a table using the following command
+
+    -----------------------------------------------------------
+    | car.objects.filter(id=1). update(car_name = "create DE") |
+    ------------------------------------------------------------
+
+To check whether Data gets updated or not 
+
+    ----------------------------
+    | >>> car.objects.all()  |
+    ---------------------------
+
+******************************************* DELETE **********************************************
+
+Delete a particular item from a table 
+
+  --------------------------------------------
+  | >>> car.objects.get(id = 1). delete()    |
+  --------------------------------------------
+
+To delete all the database 
+
+  ----------------------------
+  | >>> car.objects.delete() |
+  ----------------------------
+
